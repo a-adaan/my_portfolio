@@ -1,3 +1,60 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.button-51 {
+  background-color: transparent;
+  border: 1px solid #266db6;
+  box-sizing: border-box;
+  color: #00132c;
+  font-family: "Avenir Next LT W01 Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 12px 15px;
+  border-radius: 25px;
+  position: relative;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  z-index: 1;
+  overflow: hidden; /* To keep the pseudo-element inside the button */
+  transition: color 300ms ease-in, border-color 300ms ease-in;
+}
+
+.button-51:hover,
+.button-51:active {
+  outline: 0;
+}
+
+.button-51:hover {
+  cursor: pointer;
+  color: #fff; /* Change text color on hover */
+  border-color: #1b1b1b; /* Change border color on hover */
+}
+
+.button-51:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #d5edf6;
+  z-index: -1;
+  transition: all 300ms ease-in-out;
+  transform: translate(-100%, 0); /* Initial state - off screen */
+}
+
+.button-51:hover:before {
+  transform: translate(0, 0); /* Slide in from the left on hover */
+  background-color: #1b1b1b; /* Change the background color on hover */
+}
+
+@media (min-width: 768px) {
+  .button-51 {
+    padding: 15px 25px;
+    border-radius: 0%;
+  }
+}

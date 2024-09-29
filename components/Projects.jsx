@@ -6,6 +6,7 @@ export default function Projects() {
       {projects.map((project) => (
         <div
           key={project.id}
+          style={{ backgroundColor: project.bgcolor }}
           className="h-screen sticky top-0 lg:pt-[5vh] flex justify-center items-center"
         >
           <ProjectCard project={project} />
