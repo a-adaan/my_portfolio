@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Resume() {
   return (
     <Link
-      href="https://drive.google.com/file/d/1fgVb76WLmIom9nSXuOwNDOcl1uyplv2p/view?usp=sharing"
+      href="https://drive.google.com/file/d/1PG8KMo3C9oWjEJYlgYY_vNOx53g5lU6n/view?usp=sharing"
       target="_blank"
       alt="Nafis_Abrar_CV"
       className="relative m-5"
