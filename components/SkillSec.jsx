@@ -21,7 +21,7 @@ export default function SkillSec() {
           </svg>
           <p className="inline ml-2 font-semibold">Languages</p>
           <ul className="list-disc list-inside ps-5 mt-2 space-y-1">
-            <li>C, Javascript, Python, HTML, CSS</li>
+            <li>C, Javascript, Python, TypeScript HTML, CSS</li>
           </ul>
         </li>
         <li>

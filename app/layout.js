@@ -6,6 +6,9 @@ const robotoMono = Roboto_Mono({ subsets: ["latin"] });
 export const metadata = {
   title: "Nafis Abrar",
   description: "I am Nafis Abrar Ahmed Adaan. This is my personal Portfolio.",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({ children }) {

@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Home from "@/components/Home";
 import Projects from "@/components/Projects";
 
@@ -6,6 +7,7 @@ export default function HomePage() {
     <>
       <Home />
       <Projects />
+      <Footer />
     </>
   );
 }
