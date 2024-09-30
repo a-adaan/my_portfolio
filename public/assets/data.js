@@ -46,20 +46,20 @@ const projects = [
     visuals: ["/img/portfolio.png"],
     bgcolor: "#DEE5D4",
   },
-  {
-    id: 4,
-    title: "E-commerce Platform",
-    technologiesUsed: ["Node.js", "Express", "MongoDB", "React"],
-    keyFeatures: [
-      "Shopping cart",
-      "Payment gateway integration",
-      "User reviews",
-    ],
-    liveDemo: "https://yourecommerceplatform.com",
-    githubLink: "https://github.com/",
-    visuals: ["/img/demo.jpg"],
-    bgcolor: "#8EACCD",
-  },
+  // {
+  //   id: 4,
+  //   title: "E-commerce Platform",
+  //   technologiesUsed: ["Node.js", "Express", "MongoDB", "React"],
+  //   keyFeatures: [
+  //     "Shopping cart",
+  //     "Payment gateway integration",
+  //     "User reviews",
+  //   ],
+  //   liveDemo: "https://yourecommerceplatform.com",
+  //   githubLink: "https://github.com/",
+  //   visuals: ["/img/demo.jpg"],
+  //   bgcolor: "#8EACCD",
+  // },
 ];
 
 export default projects;
