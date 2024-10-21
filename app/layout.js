@@ -22,6 +22,13 @@ export const metadata = {
     ],
     locale: "en_US",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Nafis Abrar - Front-End Developer",
+    description:
+      "Welcome to my portfolio showcasing my frontend development skills.",
+    images: ["https://nafis-abrar.netlify.app/api/og"], // Twitter card image URL
+  },
 };
 
 export default function RootLayout({ children }) {
