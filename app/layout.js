@@ -28,7 +28,7 @@ export const metadata = {
     title: "Nafis Abrar - Front-End Developer",
     description:
       "Welcome to my portfolio showcasing my frontend development skills.",
-    images: ["https://nafis-abrar.netlify.app/api/og"], // Twitter card image URL
+    images: ["https://nafis-abrar.netlify.app/api/og"],
   },
 };
 
