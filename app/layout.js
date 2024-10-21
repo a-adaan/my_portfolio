@@ -6,8 +6,21 @@ const robotoMono = Roboto_Mono({ subsets: ["latin"] });
 export const metadata = {
   title: "Nafis Abrar",
   description: "I am Nafis Abrar Ahmed Adaan. This is my personal Portfolio.",
-  icons: {
-    icon: "/favicon.png",
+  openGraph: {
+    title: "Nafis Abrar - Front-End Developer",
+    description:
+      "Welcome to my portfolio showcasing my frontend development skills.",
+    url: "https://nafis-abrar.netlify.app",
+    siteName: "Portfolio",
+    images: [
+      {
+        url: "https://nafis-abrar.netlify.app/api/og",
+        width: 800,
+        height: 400,
+        alt: "Nafis Abrar - Frontend Developer",
+      },
+    ],
+    locale: "en_US",
   },
 };
 
